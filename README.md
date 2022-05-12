@@ -12,13 +12,13 @@ Serve PDF documents in express generated from templates
 
 ## Installation
 ```bash
-npm install @ministryofjustice/express-template-to-pdf --save
+npm i express-template-to-pdf
 ```
 
 ## Usage
 Specify the location of your views directory
 ```javascript
-const pdfRenderer = require('@ministryofjustice/express-template-to-pdf')
+const pdfRenderer = require('express-template-to-pdf')
 
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'pug')
@@ -198,12 +198,5 @@ run `node examples/pug/index.js` or ``node examples/nunjucks/index.js`` then bro
 ---
 
 _Authors: Alistair Todd, Steven Bapaga_
+_Editor: John Mendoza
 
-[npm-image]: https://img.shields.io/npm/v/@ministryofjustice/express-template-to-pdf.svg
-[npm-url]: https://www.npmjs.com/package/@ministryofjustice/express-template-to-pdf
-[licence-image]: https://img.shields.io/npm/l/@ministryofjustice/express-template-to-pdf.svg
-[build-image]: https://img.shields.io/circleci/build/github/ministryofjustice/express-template-to-pdf.svg?token=28e722a92c0624929ca5456f9944c716f0c29ad1
-[build-url]: https://circleci.com/gh/ministryofjustice/express-template-to-pdf
-[issues-image]: https://img.shields.io/github/issues/ministryofjustice/express-template-to-pdf.svg
-[issues-url]: https://github.com/ministryofjustice/express-template-to-pdf/issues
-[download-image]: https://img.shields.io/npm/dm/@ministryofjustice/express-template-to-pdf.svg
