@@ -6,8 +6,6 @@
 [![Issues][issues-image]][issues-url]
 [![Download][download-image]][npm-url]
 
-
-
 Serve PDF documents in express generated from templates
 
 ## Installation
