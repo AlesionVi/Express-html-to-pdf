@@ -203,7 +203,7 @@ const options = {
   },
 }
 
-
+```
 
 ## Example
 run `node examples/pug/index.js` or ``node examples/nunjucks/index.js`` then browse to http://localhost:3001/pdf
