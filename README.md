@@ -1,12 +1,5 @@
 # express-template-to-pdf
 
-[![NPM Version][npm-image]][npm-url]
-[![Licence][licence-image]][npm-url]
-[![Build][build-image]][build-url]
-[![Issues][issues-image]][issues-url]
-[![Download][download-image]][npm-url]
-
-
 
 Serve PDF documents in express generated from templates
 
@@ -196,7 +189,4 @@ run `node examples/pug/index.js` or ``node examples/nunjucks/index.js`` then bro
   [MIT](LICENSE)
   
 ---
-
-_Authors: Alistair Todd, Steven Bapaga_
-_Editor: John Mendoza
 
