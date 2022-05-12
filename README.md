@@ -178,6 +178,32 @@ const options = {
 }
 ```
 
+### Orientation 
+Use the below pdfOptions option to change the orientation to landscape:
+
+```javascript
+landscape: true,
+```
+
+### Orientation Example
+```javascript
+ 
+const options = {
+  filename: 'helloWorld.pdf',
+  pdfOptions: {
+    landscape: true,
+    displayHeaderFooter: true,
+    format: 'A4',
+    margin: {
+      top: '40px',
+      bottom: '60px',
+      left: '40px',
+      right: '20px',
+    },
+  },
+}
+
+
 
 ## Example
 run `node examples/pug/index.js` or ``node examples/nunjucks/index.js`` then browse to http://localhost:3001/pdf
